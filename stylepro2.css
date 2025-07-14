@@ -1,0 +1,85 @@
+body{
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+    margin: 0rem;
+    padding: 0rem;
+}
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    background-color: #f4f4f4;
+    padding: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    border-radius: 0px;
+}
+.profile {
+    display: flex;
+    gap: 5rem;
+    padding: 3rem;
+    background-color: #333;
+    color: #fff;
+
+}
+
+.profile img {
+  border-radius: 0px;
+    width: 10rem;
+    height: 10rem;
+    border: #fff 2px solid;
+}
+.articles {
+    display: inline-flexbox;
+    padding: 3rem;
+    background: #fff;
+    
+}
+.cards {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+.card {
+    background-color: #f9f9f9;
+    padding: 1.5rem;
+    width: 20rem;
+    border: 1px solid #ddd;
+    border-radius: 0px;
+}
+.contact {
+  padding: 30px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 400px;
+  margin: auto;
+}
+.contact input,
+.contact textarea { 
+  padding: 0.6rem;
+border: 1px solid #ccc;
+  width: 100%;
+ 
+}
+
+footer {
+  background-color: #111;
+  color: #fff;
+  padding: 30px;
+}
+
+.footer-cols {
+  display: flex;
+  justify-content: space-around;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0rem;
+}
